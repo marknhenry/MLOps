@@ -3,7 +3,7 @@ variables:
   BASE_NAME: 'mhazml' #used only during environment creation
   #If you want to use an existing workspace, change all the below values according to current setup
   WORKSPACE: '${{ variables.BASE_NAME }}-ws'
-  RESOURCE_GROUP: 'mh-azureml2-rg'
+  RESOURCE_GROUP: 'mhazureml'
   STORAGE_ACCOUNT: '${{ variables.BASE_NAME }}sa'
   KEY_VAULT: '${{ variables.BASE_NAME }}kv'
   APP_INSIGHTS: '${{ variables.BASE_NAME }}appins'

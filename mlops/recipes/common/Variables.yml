@@ -14,7 +14,7 @@ variables:
   #Other configuration information
   AML_COMPUTE_SKU: 'STANDARD_DS4_V2'
 
-  LOCATION: 'eastus2'
+  LOCATION: 'westeurope'
   RM_SERVICE_CONNECTION: 'AzureResourceManagerConnection'
 
   #Details of individual models
